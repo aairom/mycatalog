@@ -401,14 +401,14 @@
   },
   {
     "geo_tags": [
-      "eu-de",
-      "us-east",
-      "eu-gb",
-      "us-south",
       "au-syd",
       "br-sao",
       "ca-tor",
-      "jp-tok"
+      "jp-tok",
+      "eu-de",
+      "us-east",
+      "eu-gb",
+      "us-south"
     ],
     "id": "api-connect",
     "kind": "service",
@@ -3438,6 +3438,7 @@
     "longDescription": "A cluster network is a collection of interconnected systems working together and acting as a single entity. This combined grouping of systems allows for a high level of processing power for very complicated computations, primarily AI model training. IBM Cluster Networks use the NVIDIA H100 instance profile, which supports up to 15 VNI and vNICs with full network capabilities, 1.5 TB of memory, and 152 vCPUs running with the 8474C processor.",
     "displayName": "Cluster Network",
     "imageUrl": "https://globalcatalog.test.cloud.ibm.com/api/v1/is.instance/artifacts/Virtual%20server%20instances.svg",
+    "localSvgIcon": "/generated/icons/is.cluster-network.svg",
     "localPngIcon": "/generated/icons/is.cluster-network.png"
   },
   {
@@ -5265,6 +5266,7 @@
   },
   {
     "geo_tags": [
+      "che01",
       "br-sao",
       "ca-tor",
       "eu-de",
@@ -5276,8 +5278,7 @@
       "satcon_wdc",
       "us-east",
       "us-south",
-      "au-syd",
-      "che01"
+      "au-syd"
     ],
     "id": "databases-for-postgresql",
     "kind": "service",
@@ -5538,11 +5539,11 @@
   },
   {
     "geo_tags": [
-      "us-south",
       "br-sao",
       "ca-tor",
       "jp-tok",
       "mon01",
+      "us-south",
       "eu-de",
       "au-syd",
       "us-east",
@@ -8748,17 +8749,17 @@
   },
   {
     "geo_tags": [
+      "eu-es",
+      "jp-tok",
+      "ca-mon",
+      "eu-gb",
       "br-sao",
       "ca-tor",
       "jp-osa",
       "us-east",
-      "jp-tok",
-      "ca-mon",
-      "eu-de",
-      "us-south",
-      "eu-es",
       "au-syd",
-      "eu-gb"
+      "eu-de",
+      "us-south"
     ],
     "id": "ee41347f-b18e-4ca6-bf80-b5467c63f9a6",
     "kind": "service",
@@ -14714,12 +14715,12 @@
   },
   {
     "geo_tags": [
-      "us-south",
       "us-east",
       "au-syd",
       "eu-de",
       "eu-gb",
-      "jp-tok"
+      "jp-tok",
+      "us-south"
     ],
     "id": "bc35fb8c-bc5b-431b-859e-3861771d5843",
     "kind": "service",
@@ -18040,12 +18041,12 @@
   },
   {
     "geo_tags": [
+      "eu-de",
       "au-syd",
       "ca-tor",
       "jp-tok",
       "eu-gb",
-      "us-south",
-      "eu-de"
+      "us-south"
     ],
     "id": "51c53b72-918f-4869-b834-2d99eb28422a",
     "kind": "service",
@@ -18347,12 +18348,12 @@
   },
   {
     "geo_tags": [
-      "eu-gb",
-      "au-syd",
-      "ca-tor",
       "eu-de",
       "jp-tok",
-      "us-south"
+      "us-south",
+      "eu-gb",
+      "au-syd",
+      "ca-tor"
     ],
     "id": "ed3a5a53-eb60-4f3c-8fd1-17f88585b6ed",
     "kind": "service",
