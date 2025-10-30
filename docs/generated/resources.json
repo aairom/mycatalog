@@ -401,14 +401,14 @@
   },
   {
     "geo_tags": [
-      "eu-gb",
-      "us-south",
-      "au-syd",
       "br-sao",
       "ca-tor",
       "jp-tok",
       "eu-de",
-      "us-east"
+      "us-east",
+      "eu-gb",
+      "us-south",
+      "au-syd"
     ],
     "id": "api-connect",
     "kind": "service",
@@ -5539,16 +5539,16 @@
   },
   {
     "geo_tags": [
-      "eu-de",
+      "eu-es",
       "au-syd",
       "us-east",
       "br-sao",
       "ca-tor",
       "jp-tok",
       "mon01",
-      "us-south",
       "eu-gb",
-      "eu-es"
+      "us-south",
+      "eu-de"
     ],
     "id": "dashdb-for-transactions",
     "kind": "service",
@@ -5706,13 +5706,13 @@
   },
   {
     "geo_tags": [
+      "us-south",
       "br-sao",
       "jp-tok",
       "us-east",
       "au-syd",
       "eu-gb",
-      "eu-de",
-      "us-south"
+      "eu-de"
     ],
     "id": "9e02e72d-00ce-4220-b44c-650c8314e58a",
     "kind": "service",
@@ -8751,17 +8751,17 @@
   },
   {
     "geo_tags": [
-      "eu-de",
-      "us-south",
+      "eu-es",
+      "ca-mon",
+      "eu-gb",
       "br-sao",
       "ca-tor",
       "jp-osa",
       "us-east",
-      "eu-gb",
-      "eu-es",
       "jp-tok",
       "au-syd",
-      "ca-mon"
+      "eu-de",
+      "us-south"
     ],
     "id": "ee41347f-b18e-4ca6-bf80-b5467c63f9a6",
     "kind": "service",
@@ -9792,7 +9792,7 @@
       {
         "id": "8f581ac9-1bf5-4648-9457-5a828d0822d6",
         "name": "essential-edition",
-        "description": "This plan provides you with the core capabilities of IBM Match 360, a multi-domain operational and analytical master data management (MDM) service that delivers at scale an integrated and consolidated view of critical enterprise data across data silos, leveraging intelligent and tunable data matching and entity resolution as well as management of other related entities across the enterprise.\n\n*** Advanced governance and quality capabilities, including support for Al assisted profiling and mapping, data quality assessment of inputs and resolved entities, as well as enforcing enterprise data quality and privacy policies for master data is provided by an additional subscription of IBM watsonx.data intelligence Standard plan.",
+        "description": "This plan provides you with the core capabilities of IBM Master Data Management, a multi-domain operational and analytical master data management (MDM) service that delivers at scale an integrated and consolidated view of critical enterprise data across data silos, leveraging intelligent and tunable data matching and entity resolution as well as management of other related entities across the enterprise.\n\n*** Advanced governance and quality capabilities, including support for Al assisted profiling and mapping, data quality assessment of inputs and resolved entities, as well as enforcing enterprise data quality and privacy policies for master data is provided by an additional subscription of IBM watsonx.data intelligence Standard plan.",
         "displayName": "Essential",
         "originalName": "Essential-Edition"
       },
@@ -9805,7 +9805,7 @@
       }
     ],
     "description": "Improve trust in AI pipelines by identifying duplicate records and providing reliable data about your customers, suppliers, or partners.",
-    "longDescription": "Use IBM Match 360 to quickly build data pipelines for analytics and other data science use cases using master data.  Start with your IBM MDM Advanced or Standard Edition entities, or with any data assets containing party information from the knowledge catalog and quickly map and model new attributes to your data model for a more complete view of your customers. The AI-powered matching engine speeds configuration using the same statistical methods clients have relied on to produce accurate match results.  Results can be accessed via RESTful APIs, exported to flat files, or viewed online via the entity explorer.",
+    "longDescription": "Use IBM Master Data Management to quickly build data pipelines for analytics and other data science use cases using master data.  Start with your IBM MDM Advanced or Standard Edition entities, or with any data assets containing party information from the knowledge catalog and quickly map and model new attributes to your data model for a more complete view of your customers. The AI-powered matching engine speeds configuration using the same statistical methods clients have relied on to produce accurate match results.  Results can be accessed via RESTful APIs, exported to flat files, or viewed online via the entity explorer.",
     "displayName": "Match 360",
     "imageUrl": "https://test.cloud.ibm.com/mdm-oc/static/mdm-icon.svg",
     "localSvgIcon": "/generated/icons/14bd30e0-8921-11e9-a2c5-13fceaf553c0.svg",
@@ -15565,12 +15565,12 @@
   },
   {
     "geo_tags": [
-      "us-east",
       "au-syd",
       "eu-de",
       "eu-gb",
       "jp-tok",
-      "us-south"
+      "us-south",
+      "us-east"
     ],
     "id": "282c1d79-9176-4597-9cff-941a8d6cfd4c",
     "kind": "service",
@@ -16537,6 +16537,7 @@
       "eu-gb-1",
       "eu-gb-2",
       "eu-gb-3",
+      "in-che",
       "jp-osa",
       "jp-osa-1",
       "jp-osa-2",
@@ -16625,6 +16626,7 @@
       "iam_compatible",
       "ibm_created",
       "ibm_release",
+      "in-che",
       "inferencing",
       "is.composite",
       "jp-osa",
@@ -18350,12 +18352,12 @@
   },
   {
     "geo_tags": [
-      "eu-gb",
-      "au-syd",
-      "ca-tor",
       "eu-de",
       "jp-tok",
-      "us-south"
+      "us-south",
+      "eu-gb",
+      "au-syd",
+      "ca-tor"
     ],
     "id": "ed3a5a53-eb60-4f3c-8fd1-17f88585b6ed",
     "kind": "service",
